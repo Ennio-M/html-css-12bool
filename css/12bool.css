@@ -4,10 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.debug{
-    background-color: bisque;
-    border: 1px solid black;
-}
 .wrapper{
     width: 100%;
 }
@@ -104,4 +100,29 @@
 }
 .col-xs-offset-11{
     margin-left: calc((100% / 12) * 11);
+}
+/* utilities */
+.start{
+    justify-content: flex-start;
+}
+.center{
+    justify-content: center;
+}
+.end{
+    justify-content: flex-end;
+}
+.around{
+    justify-content: space-around;
+}
+.between{
+    justify-content: space-between;
+}
+.top{
+    align-items: flex-start;
+}
+.middle{
+    align-items: center;
+}
+.bottom{
+    align-items: flex-end;
 }

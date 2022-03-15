@@ -13,3 +13,6 @@ section{
     background-color: #00e165;
     border-color: #006cfa;
 }
+.box.tall-box{
+    min-height: 100px;
+}
